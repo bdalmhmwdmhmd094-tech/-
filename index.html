@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمبيش - متجر ملابس إلكتروني</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <h1 class="logo">تمبيش</h1>
+                <div class="header-actions">
+                    <input type="search" class="search-box" placeholder="ابحث عن منتج...">
+                    <button class="cart-btn">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                    <button class="user-btn">👤</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#" class="active">الرئيسية</a></li>
+                <li><a href="#tshirts">تي شيرتات</a></li>
+                <li><a href="#pants">بناطيل</a></li>
+                <li><a href="#about">عن المتجر</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>أحدث التصاميم بأسعار تنافسية</h2>
+                    <p>اكتشف مجموعتنا الجديدة من الملابس العصرية والمريحة</p>
+                    <button class="cta-btn">ابدأ التسوق الآن</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">الأقسام الرئيسية</h2>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- T-Shirts Section -->
+        <section id="tshirts" class="products-section">
+            <div class="container">
+                <h2 class="section-title">تي شيرتات</h2>
+                <div class="products-grid" id="tshirtsGrid">
+                    <!-- Products will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Pants Section -->
+        <section id="pants" class="products-section">
+            <div class="container">
+                <h2 class="section-title">بناطيل</h2>
+                <div class="products-grid" id="pantsGrid">
+                    <!-- Products will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">🚚</span>
+                        <h3>شحن سريع</h3>
+                        <p>توصيل لجميع المحافظات خلال 2-3 أيام</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">💳</span>
+                        <h3>دفع آمن</h3>
+                        <p>جميع طرق الدفع آمنة وموثوقة</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">↩️</span>
+                        <h3>إرجاع سهل</h3>
+                        <p>إرجاع بدون تعقيدات خلال 7 أيام</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">👥</span>
+                        <h3>خدمة العملاء</h3>
+                        <p>خدمة عملاء متاحة 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>عن المتجر</h4>
+                    <p>تمبيش متجر ملابس إلكتروني متخصص في تقديم أحدث التصاميم بأسعار تنافسية</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                        <li><a href="#">سياسة الإرجاع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/tenbish.store">Instagram</a>
+                        <a href="https://tiktok.com/@tenbish.store">TikTok</a>
+                        <a href="https://snapchat.com/add/tenbish.store">Snapchat</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 تمبيش - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

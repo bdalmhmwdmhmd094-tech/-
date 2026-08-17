@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "تي شيرتات",
+      "arabicName": "تي شيرتات",
+      "icon": "👕",
+      "image": "/images/categories/tshirts.jpg"
+    },
+    {
+      "id": 2,
+      "name": "بناطيل",
+      "arabicName": "بناطيل",
+      "icon": "👖",
+      "image": "/images/categories/pants.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "categoryId": 1,
+      "name": "تي شيرت أسود",
+      "arabicName": "تي شيرت أسود كلاسيكي",
+      "price": 79,
+      "currency": "ج.م",
+      "image": "/images/products/tshirt-black.jpg",
+      "description": "تي شيرت أسود من القطن 100%",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["أسود", "أبيض", "رمادي"],
+      "inStock": true,
+      "rating": 4.5,
+      "reviews": 24
+    },
+    {
+      "id": 102,
+      "categoryId": 1,
+      "name": "تي شيرت رمادي",
+      "arabicName": "تي شيرت رمادي فاخر",
+      "price": 89,
+      "currency": "ج.م",
+      "image": "/images/products/tshirt-gray.jpg",
+      "description": "تي شيرت مريح وعملي",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["رمادي", "أسود"],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 18
+    },
+    {
+      "id": 103,
+      "categoryId": 1,
+      "name": "تي شيرت بيج",
+      "arabicName": "تي شيرت بيج عصري",
+      "price": 85,
+      "currency": "ج.م",
+      "image": "/images/products/tshirt-beige.jpg",
+      "description": "تي شيرت ذو لون محايد يناسب جميع الأذواق",
+      "sizes": ["S", "M", "L"],
+      "colors": ["بيج", "كريمي"],
+      "inStock": true,
+      "rating": 4.3,
+      "reviews": 12
+    },
+    {
+      "id": 201,
+      "categoryId": 2,
+      "name": "بنطال جينز أسود",
+      "arabicName": "بنطال جينز أسود ضيق",
+      "price": 199,
+      "currency": "ج.م",
+      "image": "/images/products/jeans-black.jpg",
+      "description": "بنطال جينز عالي الجودة مريح",
+      "sizes": ["28", "30", "32", "34", "36"],
+      "colors": ["أسود", "أزرق"],
+      "inStock": true,
+      "rating": 4.6,
+      "reviews": 45
+    },
+    {
+      "id": 202,
+      "categoryId": 2,
+      "name": "بنطال جينز أزرق",
+      "arabicName": "بنطال جينز أزرق كلاسيكي",
+      "price": 189,
+      "currency": "ج.م",
+      "image": "/images/products/jeans-blue.jpg",
+      "description": "بنطال جينز فاتح اللون وعملي",
+      "sizes": ["28", "30", "32", "34"],
+      "colors": ["أزرق فاتح", "أزرق غامق"],
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 52
+    },
+    {
+      "id": 203,
+      "categoryId": 2,
+      "name": "بنطال كاجوال بيج",
+      "arabicName": "بنطال كاجوال بيج مريح",
+      "price": 169,
+      "currency": "ج.م",
+      "image": "/images/products/pants-beige.jpg",
+      "description": "بنطال كاجوال مثالي للاستخدام اليومي",
+      "sizes": ["28", "30", "32", "34"],
+      "colors": ["بيج", "كاكي"],
+      "inStock": true,
+      "rating": 4.4,
+      "reviews": 28
+    },
+    {
+      "id": 204,
+      "categoryId": 2,
+      "name": "بنطال رسمي أسود",
+      "arabicName": "بنطال رسمي أسود فاخر",
+      "price": 299,
+      "currency": "ج.م",
+      "image": "/images/products/pants-formal.jpg",
+      "description": "بنطال رسمي عالي الجودة للمناسبات",
+      "sizes": ["30", "32", "34", "36"],
+      "colors": ["أسود"],
+      "inStock": true,
+      "rating": 4.9,
+      "reviews": 35
+    }
+  ]
+}
